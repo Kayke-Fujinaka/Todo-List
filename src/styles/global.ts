@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         -webkit-font-smoothing: antialiased; 
         scroll-behavior: smooth;
-        background: ${theme.colors.white};
+        background: ${theme.colors.background};
     }
     body, input, textarea, button {
         font-family: 'Poppins', sans-serif;
