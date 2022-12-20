@@ -54,7 +54,9 @@ export default function TaskList() {
             onChange={(e) => setNewTaskTitle(e.target.value)}
             value={newTaskTitle}
           />
-          <button onClick={handleCreateNewTask}>Add</button>
+          <button data-testid="add-task-button" onClick={handleCreateNewTask}>
+            Add
+          </button>
         </div>
       </S.Header>
 
