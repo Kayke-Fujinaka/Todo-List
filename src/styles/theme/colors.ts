@@ -5,7 +5,6 @@ export const colors = {
   green: "#3FAD27",
   red: "#ad273f",
   background: "#EBEBEB",
-  shapes: "#FFFFFF",
   text_title: "#3D3D4D",
   text: "#1C1C29",
   text_light: "#A09CB1",
